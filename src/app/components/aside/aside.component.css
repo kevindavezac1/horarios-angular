@@ -1,0 +1,36 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 0;
+    float: left;
+}
+
+div ul {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 480px;
+    background-color: brown;
+}
+
+div ul a{
+    text-decoration: none;
+    color: black;
+}
+
+div ul li {
+    list-style: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+div ul li:hover {
+    background-color: black;
+    color: white;
+}

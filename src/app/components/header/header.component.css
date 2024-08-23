@@ -14,12 +14,14 @@ nav{
     justify-content: center;
     border: 1px solid black;
     padding: 10px;
+    background-color: brown;
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
-    gap: 20px; 
+    gap: 10px; 
+    background-color: brown;
 }
 
 nav ul a {
@@ -27,7 +29,7 @@ nav ul a {
     color: black;
     border: 1px solid black;
     padding: 5px;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 
 nav ul a:hover{
