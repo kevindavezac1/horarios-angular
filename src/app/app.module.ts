@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AsideComponent } from './components/aside/aside.component';
 import { HorariosComponent } from './components/horarios/horarios.component';
+import { HorariosFlexComponent } from './components/horarios-flex/horarios-flex.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AsideComponent,
-    HorariosComponent
+    HorariosComponent,
+    HorariosFlexComponent
   ],
   imports: [
     BrowserModule,
